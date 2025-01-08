@@ -1,7 +1,7 @@
 from dotenv import load_dotenv
 import os
 
-from .secrets import secrets_get
+from .az_secrets import secrets_get
 
 LANG_SERVICE = 'language'
 
